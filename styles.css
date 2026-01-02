@@ -76,7 +76,41 @@ p {
 /* =================
     Form
    ================= */
-   
+   input, .btn {
+    font-family: inherit;
+    border-radius: 5px;
+    width: 100%;
+   }
+
+   form input {
+    display: block;
+    margin-bottom: .75em;
+    padding: .5em;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+   }
+
+   form input:focus {
+    outline: none;
+    background-color: #e6e8ec;
+    border: 2px solid #8a71ec;
+   }
+
+   .btn {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #8a71ec;
+    color: #e6e8ec;
+    border: none;
+    display: block;
+    padding: 1em 0;
+    cursor: pointer;
+    margin-top: 1em;
+   }
+
+   .btn:hover {
+    background-color: #b7a7f6;
+   }
 
 /* =================
     Media queries 
